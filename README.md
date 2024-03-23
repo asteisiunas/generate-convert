@@ -25,3 +25,7 @@ composer test
 ```bash
 composer lint
 ```
+
+```bash
+composer phpstan
+```

@@ -42,7 +42,7 @@ class StringToNumberConverter implements ConverterInterface
         return implode('/', $numbers);
     }
 
-    private function isDigit($char): bool
+    private function isDigit(string $char): bool
     {
         $ascii = ord($char);
 

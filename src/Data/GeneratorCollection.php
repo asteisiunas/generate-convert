@@ -8,6 +8,7 @@ use App\Services\Generators\GeneratorInterface;
 
 class GeneratorCollection
 {
+    /** @var GeneratorInterface[] */
     private array $generators = [];
 
     public function add(GeneratorInterface $generator): void
@@ -15,6 +16,9 @@ class GeneratorCollection
         $this->generators[] = $generator;
     }
 
+    /**
+     * @return GeneratorInterface[]
+     */
     public function getAll(): array
     {
         return $this->generators;

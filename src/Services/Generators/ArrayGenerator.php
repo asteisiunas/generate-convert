@@ -12,6 +12,9 @@ class ArrayGenerator implements GeneratorInterface
     ) {
     }
 
+    /**
+     * @return string[]
+     */
     public function generate(): array
     {
         $result = [];
