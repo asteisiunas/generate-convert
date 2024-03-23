@@ -19,5 +19,9 @@ Use PHPCodeSniffer, PHPStan and PHPUnit.
 # Test
 
 ```bash
-vendor/bin/phpunit
+composer test
+```
+
+```bash
+composer lint
 ```
