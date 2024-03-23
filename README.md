@@ -15,3 +15,9 @@ With the help of Symphony 6 dependency injection component and composer implemen
 4. Add index.php and add random Generators to your Generators collection. Loop threw collection and apply random Converter to every Generator.
 
 Use PHPCodeSniffer, PHPStan and PHPUnit.
+
+# Test
+
+```bash
+vendor/bin/phpunit
+```
